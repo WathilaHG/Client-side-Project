@@ -1,0 +1,115 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+			"picture":"images/prop1pic1small.jpg",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"images/prop2pic1small.jpg",
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 925000,
+            "tenure": "Freehold",
+            "description": "Spacious four bedroom detached family home set on a quiet residential road within easy reach of Bromley South station and high street amenities. The property offers a large dual-aspect living room, separate dining room, modern fitted kitchen and downstairs shower room. Upstairs there are four generous bedrooms and a contemporary family bathroom. Outside benefits include a mature rear garden, off-street parking and an integrated garage...",
+            "location": "Hayes Lane, Bromley BR2",
+            "picture": "images/prop3pic1small.jpg",
+            "url": "properties/prop3.html",
+            "added": {
+                "month": "November",
+                "day": 3,
+                "year": 2023
+            }  
+        },
+        {
+            "id": "prop4",
+            "type": "Flat",
+            "bedrooms": 1,
+            "price": 285000,
+            "tenure": "Leasehold",
+            "description": "Modern one bedroom third floor apartment located moments from Orpington station, ideal for first time buyers and commuters. The open-plan kitchen/living area features integrated appliances and Juliet balcony, with a double bedroom and contemporary three-piece bathroom suite. The building benefits from lift access, secure entry system and residents' bike storage...",
+            "location": "Station Road, Orpington BR6",
+            "picture": "images/prop4pic1small.jpg",
+            "url": "properties/prop4.html",
+            "added": {
+                "month": "January",
+                "day": 18,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 1250000,
+            "tenure": "Freehold",
+            "description": "Impressive five bedroom semi-detached period property arranged over three floors and located in a sought-after tree-lined road close to local grammar schools. The ground floor comprises two reception rooms, a large kitchen/breakfast room and utility. On the upper floors there are five bedrooms, two bathrooms and a separate WC. Features include high ceilings, original fireplaces, landscaped rear garden and driveway for two cars...",
+            "location": "Clarence Road, Bickley BR1",
+            "picture": "images/prop5pic1small.jpg",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "August",
+                "day": 27,
+                "year": 2023
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "Flat",
+            "bedrooms": 3,
+            "price": 550000,
+            "tenure": "Leasehold",
+            "description": "Beautifully presented three bedroom split-level maisonette situated above commercial premises in the heart of Chislehurst village. The property offers a bright reception room, separate fitted kitchen, three good sized bedrooms and a stylish bathroom. Further benefits include double glazing, gas central heating and a small private terrace. Perfect for buyers wanting village life with easy access to shops, cafes and transport links...",
+            "location": "High Street, Chislehurst BR7",
+            "picture": "images/prop6pic1small.jpg",
+            "url": "properties/prop6.html",
+            "added": {
+                "month": "May",
+                "day": 6,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "House",
+            "bedrooms": 2,
+            "price": 475000,
+            "tenure": "Freehold",
+            "description": "Charming two bedroom terraced cottage set in a quiet cul-de-sac location within walking distance of local shops and St Mary Cray station. Accommodation comprises a front reception room with feature fireplace, fitted kitchen/breakfast room and ground floor bathroom. To the first floor are two double bedrooms. Externally there is an attractive rear garden with patio and lawn, plus on-street parking to the front...",
+            "location": "Mill Lane, St Mary Cray BR5",
+            "picture": "images/prop7pic1small.jpg",
+            "url": "properties/prop7.html",
+            "added": {
+                "month": "February",
+                "day": 10,
+                "year": 2023
+            }
+        }
+]}
