@@ -28,7 +28,7 @@ export function SearchForm({onSearch}){
 
     return(
         <Box component="form" onSubmit={handleSubmit} sx={{display: "grid", gap: 2}}>
-            <Typography variant="h6">Search criteria</Typography>
+            <Typography variant="h6" >Search criteria</Typography>
 
             <TextField select label="Type" value={type} onChange={(e) => setType(e.target.value)}>
                 <MenuItem value="any">Any</MenuItem>
