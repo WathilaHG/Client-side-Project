@@ -1,11 +1,13 @@
 import {useState} from 'react';
 import data from '../data/properties.json';
 import { SearchForm } from '../components/SearchForm.jsx';
-import {PropertyList} from "../components/PropertyList.jsx"
+import {PropertyList} from "../components/PropertyList.jsx";
+import { FavouritesPanel } from '../components/FavouritesPanel.jsx';
 
 export function SearchPage(){
     const [properties] = useState(data.properties);
     const [filtered, setFiltered] = useState([]);
+    const [favourites, setFavourites] = useState([])
 
     const manageSearch = (criteria) => {
         const results = properties.filter((p) => {
@@ -45,12 +47,40 @@ export function SearchPage(){
 
     const propertiesToDisplay = filtered.length? filtered : properties;
 
+    const addFavourite = (id) => {
+        setFavourites((prev) => {
+            return prev.includes(id) ? prev :[...prev, id]
+        });
+    };
+
+    const removeFavourite = (id) => {
+        return setFavourites((prev) => prev.filter((fid) => {return fid !== id}))
+    };
+
+    const clearFavourites = () => {
+        setFavourites([]);
+    }
+
+    const favouriteProperties = properties.filter((p) => {return favourites.includes(p.id)});
 
 
     return(
-        <div className='search-page'>
-            <SearchForm onSearch={manageSearch}/>
-            <PropertyList properties={propertiesToDisplay}/>
+        <div className='search-layout'>
+            <div className='search-main'>
+                <h1>Property search</h1>
+                <SearchForm onSearch={manageSearch}/>
+                <PropertyList 
+                    properties={propertiesToDisplay} 
+                    onFavourite={addFavourite}
+                />
+            </div>
+
+            <FavouritesPanel
+                favourites={favouriteProperties}
+                onRemove={removeFavourite}
+                onClear={clearFavourites}
+                onDropId={addFavourite}
+            />
         </div>
-    )
+    );
 }
