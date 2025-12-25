@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import data from '../data/properties.json';
 import { SearchForm } from '../components/SearchForm.jsx';
-import PropertyList from "../components/PropertyList.jsx"
+import {PropertyList} from "../components/PropertyList.jsx"
 
 export function SearchPage(){
     const [properties] = useState(data.properties);
@@ -10,7 +10,7 @@ export function SearchPage(){
     const manageSearch = (criteria) => {
         const results = properties.filter((p) => {
             //type
-            if(criteria.type !== 'any' && p.type !== criteria.type){return false;}
+            if(criteria.type !== 'any' && p.type.toLowerCase() !== criteria.type.toLowerCase()){return false;}
 
             //price
             if(criteria.minPrice && p.price < Number(criteria.minPrice)){return false;}

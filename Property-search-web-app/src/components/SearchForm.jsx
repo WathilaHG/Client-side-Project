@@ -32,8 +32,8 @@ export function SearchForm({onSearch}){
 
             <TextField select label="Type" value={type} onChange={(e) => setType(e.target.value)}>
                 <MenuItem value="any">Any</MenuItem>
-                <MenuItem value="house">House</MenuItem>
-                <MenuItem value="flat">Flat</MenuItem>
+                <MenuItem value="House">House</MenuItem>
+                <MenuItem value="Flat">Flat</MenuItem>
             </TextField>
 
             <TextField 
