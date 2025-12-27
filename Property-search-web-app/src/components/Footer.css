@@ -1,0 +1,8 @@
+.site-footer{
+    padding:8px 16px;
+    background:linear-gradient(135deg, #1061ee, #a1b9e6);
+    font-size: 0.9ren;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}

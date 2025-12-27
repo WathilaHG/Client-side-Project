@@ -25,7 +25,6 @@ export function PropertyPage(){
 
     return(
         <div className="property-page">
-            <Link to="/"> Back to search</Link>
             <h1>
                 £{property.price.toLocaleString()} - {property.bedrooms} bed{" "}
                 {property.type}

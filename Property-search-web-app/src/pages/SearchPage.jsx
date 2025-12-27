@@ -68,7 +68,6 @@ export function SearchPage(){
     return(
         <div className='search-layout'>
             <h1>Property search</h1>
-            <h2>Search criteria</h2>
             <SearchForm onSearch={manageSearch}/>
             <div className='property-section'>
                 <PropertyList 
