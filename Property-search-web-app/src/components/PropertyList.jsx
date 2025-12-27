@@ -1,4 +1,5 @@
 import { PropertyCard } from "./PropertyCard.jsx";
+import "./PropertyList.css"
 
 export function PropertyList({properties, onFavourite}){
     if(!properties.length){

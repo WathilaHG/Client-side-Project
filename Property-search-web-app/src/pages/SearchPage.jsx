@@ -3,6 +3,7 @@ import data from '../data/properties.json';
 import { SearchForm } from '../components/SearchForm.jsx';
 import {PropertyList} from "../components/PropertyList.jsx";
 import { FavouritesPanel } from '../components/FavouritesPanel.jsx';
+import "./SearchPage.css"
 
 export function SearchPage(){
     const [properties] = useState(data.properties);
@@ -54,33 +55,36 @@ export function SearchPage(){
     };
 
     const removeFavourite = (id) => {
-        return setFavourites((prev) => prev.filter((fid) => {return fid !== id}))
+        setFavourites((prev) => prev.filter((fid) => fid !== id));
     };
 
     const clearFavourites = () => {
         setFavourites([]);
     }
 
-    const favouriteProperties = properties.filter((p) => {return favourites.includes(p.id)});
+    const favouriteProperties = properties.filter((p) => favourites.includes(p.id));
 
 
     return(
         <div className='search-layout'>
-            <div className='search-main'>
-                <h1>Property search</h1>
-                <SearchForm onSearch={manageSearch}/>
+            <h1>Property search</h1>
+            <h2>Search criteria</h2>
+            <SearchForm onSearch={manageSearch}/>
+            <div className='property-section'>
                 <PropertyList 
                     properties={propertiesToDisplay} 
                     onFavourite={addFavourite}
                 />
-            </div>
 
-            <FavouritesPanel
-                favourites={favouriteProperties}
-                onRemove={removeFavourite}
-                onClear={clearFavourites}
-                onDropId={addFavourite}
-            />
+                <FavouritesPanel
+                    favourites={favouriteProperties}
+                    onRemove={removeFavourite}
+                    onClear={clearFavourites}
+                    onDropId={addFavourite}
+                    className="fav-section"
+                />
+                
+            </div>
         </div>
     );
 }

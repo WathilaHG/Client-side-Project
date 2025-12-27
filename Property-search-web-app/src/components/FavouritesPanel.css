@@ -1,0 +1,13 @@
+.favourites-panel{
+    background-color: rgba(180, 184, 184, 0.323);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.favourites-item{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 10px;
+}

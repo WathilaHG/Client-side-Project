@@ -1,3 +1,5 @@
+import "./FavouritesPanel.css";
+
 export function FavouritesPanel({favourites, onRemove, onClear, onDropId}){
     const handleDrop = (e) => {
         e.preventDefault();
