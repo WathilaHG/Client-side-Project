@@ -93,10 +93,9 @@ export function PropertyPage(){
                 )}
 
                 {activeTab === "map" && (
-                    <img
+                    <iframe
                         src={property.map}
-                        alt="Map"
-                        className="map-image"
+                        className="map-iframe"
                     />
                 )}
             </div>
