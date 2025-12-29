@@ -8,7 +8,7 @@
 			"tenure":"Freehold",
 			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
 			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"/house-1559918.jpg",
+			"picture":"/prop1/house-1559918.jpg",
 			"url":"/properties/prop1.html",
             "added": {
                 "month":"October",
@@ -16,14 +16,14 @@
                 "year":2022
             },
             "images":[
-                "/istockphoto-2185177891-612x612.jpg",
-                "/photo-1721739226305-6e0627ca814e.jpg",
-                "/photo-1721396185206-3e8b304c4eba.jpg",
-                "/premium_photo-1663051217428-4d7e24bf1056.jpg",
-                "/pexels-heyho-6489127.jpg"
+                "/prop1/istockphoto-2185177891-612x612.jpg",
+                "/prop1/photo-1721739226305-6e0627ca814e.jpg",
+                "/prop1/photo-1721396185206-3e8b304c4eba.jpg",
+                "/prop1/premium_photo-1663051217428-4d7e24bf1056.jpg",
+                "/prop1/pexels-heyho-6489127.jpg"
 
             ],
-            "floorPlan":"/floorplans/Free-House-Plan-PDF-DWG-13033-Image-floor-plan.jpg",
+            "floorPlan":"/prop1/Free-House-Plan-PDF-DWG-13033-Image-floor-plan.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6754936725865!2d0.08208490000000002!3d51.3906419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766860969320!5m2!1sen!2slk"
         },
 		{
@@ -34,7 +34,7 @@
 			"tenure":"Freehold",
 			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat.The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.This apartment being only five years old, is still under a 10 year building guarantee...",
 			"location":"Crofton Road Orpington BR6",
-			"picture":"/pexels-heyho-8089196.jpg",
+			"picture":"/prop2/pexels-heyho-8089196.jpg",
 			"url":"properties/prop2.html",
             "added": {
                 "month":"September",
@@ -42,13 +42,13 @@
                 "year":2022
             },
             "images":[
-                "/pexels-fotoaibe-1571450.jpg",
-                "/pexels-heyho-6636243.jpg",
-                "/medium-vecteezy_white-and-gray-bathroom-interior_1224573_medium.jpg",
-                "/jason-briscoe-GliaHAJ3_5A-unsplash.jpg",
-                "/pexels-heyho-6186821.jpg"
+                "/prop2/pexels-fotoaibe-1571450.jpg",
+                "/prop2/pexels-heyho-6636243.jpg",
+                "/prop2/medium-vecteezy_white-and-gray-bathroom-interior_1224573_medium.jpg",
+                "/prop2/jason-briscoe-GliaHAJ3_5A-unsplash.jpg",
+                "/prop2/pexels-heyho-6186821.jpg"
             ],
-            "floorPlan":"/floorplans/2-bedroom-floor-plan-template-05 (1).jpg",
+            "floorPlan":"/prop2/2-bedroom-floor-plan-template-05 (1).jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6133282394!2d0.0719676!3d51.373404799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766923547049!5m2!1sen!2slk"
         },
         {
@@ -59,7 +59,7 @@
             "tenure": "Freehold",
             "description": "Spacious four bedroom detached family home set on a quiet residential road within easy reach of Bromley South station and high street amenities. The property offers a large dual-aspect living room, separate dining room, modern fitted kitchen and downstairs shower room. Upstairs there are four generous bedrooms and a contemporary family bathroom. Outside benefits include a mature rear garden, off-street parking and an integrated garage...",
             "location": "Hayes Lane, Bromley BR2",
-            "picture": "/pexels-binyaminmellish-186077.jpg",
+            "picture": "/prop3/pexels-binyaminmellish-186077.jpg",
             "url": "properties/prop3.html",
             "added": {
                 "month": "November",
@@ -67,13 +67,13 @@
                 "year": 2023
             },
             "images":[
-                "/collov-home-design-NTaF5rBmlyE-unsplash.jpg",
-                "/spacejoy-RUvW1KGD9a4-unsplash.jpg",
-                "/ali-moradi-vz9IbCAXHKQ-unsplash.jpg",
-                "/lotus-design-n-print-g51F6-WYzyU-unsplash.jpg",
-                "/pexels-falling4utah-2724749.jpg"
+                "/prop3/collov-home-design-NTaF5rBmlyE-unsplash.jpg",
+                "/prop3/spacejoy-RUvW1KGD9a4-unsplash.jpg",
+                "/prop3/ali-moradi-vz9IbCAXHKQ-unsplash.jpg",
+                "/prop3/lotus-design-n-print-g51F6-WYzyU-unsplash.jpg",
+                "/prop3/pexels-falling4utah-2724749.jpg"
             ],
-            "floorPlan": "/floorplans/4_bedplan_b2686b9254.jpg",
+            "floorPlan": "/prop3/4_bedplan_b2686b9254.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6023055566952!2d0.0001235!3d51.3919869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa7e3ec65287%3A0x47d3b673cbb00053!2sHayes%20Ln%2C%20United%20Kingdom!5e0!3m2!1sen!2slk!4v1766923638549!5m2!1sen!2slk" 
              
         },
@@ -85,7 +85,7 @@
             "tenure": "Leasehold",
             "description": "Modern one bedroom third floor apartment located moments from Orpington station, ideal for first time buyers and commuters. The open-plan kitchen/living area features integrated appliances and Juliet balcony, with a double bedroom and contemporary three-piece bathroom suite. The building benefits from lift access, secure entry system and residents' bike storage...",
             "location": "Station Road, Orpington BR6",
-            "picture": "/pexels-heyho-6782271.jpg",
+            "picture": "/prop4/pexels-heyho-6782271.jpg",
             "url": "properties/prop4.html",
             "added": {
                 "month": "January",
@@ -93,13 +93,13 @@
                 "year": 2024
             },
             "images":[
-                "/spacejoy-nEtpvJjnPVo-unsplash.jpg",
-                "/2219.jpg",
-                "/point3d-commercial-imaging-ltd-fN3dRwzOux0-unsplash.jpg",
-                "/pexels-heyho-7746655.jpg",
-                "/pexels-heyho-7614604.jpg"
+                "/prop4/spacejoy-nEtpvJjnPVo-unsplash.jpg",
+                "/prop4/2219.jpg",
+                "/prop4/point3d-commercial-imaging-ltd-fN3dRwzOux0-unsplash.jpg",
+                "/prop4/pexels-heyho-7746655.jpg",
+                "/prop4/pexels-heyho-7614604.jpg"
             ],
-            "floorPlan":"/floorplans/1Bed_flat.jpg",
+            "floorPlan":"/prop4/1Bed_flat.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6667826602675!2d0.0938043!3d51.3724222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac9c275e1043%3A0x52f835a3dcf7602f!2sStation%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766923791618!5m2!1sen!2slk"
         },
         {
@@ -110,7 +110,7 @@
             "tenure": "Freehold",
             "description": "Impressive five bedroom semi-detached period property arranged over three floors and located in a sought-after tree-lined road close to local grammar schools. The ground floor comprises two reception rooms, a large kitchen/breakfast room and utility. On the upper floors there are five bedrooms, two bathrooms and a separate WC. Features include high ceilings, original fireplaces, landscaped rear garden and driveway for two cars...",
             "location": "Clarence Road, Bickley BR1",
-            "picture": "/house-isolated-field.jpg",
+            "picture": "/prop5/house-isolated-field.jpg",
             "url": "properties/prop5.html",
             "added": {
                 "month": "August",
@@ -118,14 +118,14 @@
                 "year": 2023
             },
             "images":[
-                "/istockphoto-1476189571-612x612.jpg",
-                "/2125.jpg",
-                "/2269.jpg",
-                "/collov-home-design--aDGbdTsBZg-unsplash.jpg",
-                "/pexels-fotoaibe-1571462.jpg",
-                "/pexels-heyho-6436770.jpg"
+                "/prop5/istockphoto-1476189571-612x612.jpg",
+                "/prop5/2125.jpg",
+                "/prop5/2269.jpg",
+                "/prop5/collov-home-design--aDGbdTsBZg-unsplash.jpg",
+                "/prop5/pexels-fotoaibe-1571462.jpg",
+                "/prop5/pexels-heyho-6436770.jpg"
             ],
-            "floorPlan":"/floorplans/House Design Plan 16_5x10m With 5 Bedrooms - Home Ideas C5E.jpg",
+            "floorPlan":"/prop5/House Design Plan 16_5x10m With 5 Bedrooms - Home Ideas C5E.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.2377049131323!2d0.0405935!3d51.398686899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa51f1d8548b%3A0x8664b5e181625589!2sClarence%20Rd%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2slk!4v1766923941185!5m2!1sen!2slk"
         },
         {
@@ -136,7 +136,7 @@
             "tenure": "Leasehold",
             "description": "Beautifully presented three bedroom split-level maisonette situated above commercial premises in the heart of Chislehurst village. The property offers a bright reception room, separate fitted kitchen, three good sized bedrooms and a stylish bathroom. Further benefits include double glazing, gas central heating and a small private terrace. Perfect for buyers wanting village life with easy access to shops, cafes and transport links...",
             "location": "High Street, Chislehurst BR7",
-            "picture": "/living-room-5570444_1280.jpg",
+            "picture": "/prop6/living-room-5570444_1280.jpg",
             "url": "properties/prop6.html",
             "added": {
                 "month": "May",
@@ -144,14 +144,14 @@
                 "year": 2024
             },
             "images":[
-                "/lotus-design-n-print-8qNuR1lIv_k-unsplash.jpg",
-                "/spacejoy-vOa-PSimwg4-unsplash.jpg",
-                "/isaac-martin-wH2aFGo-Rt0-unsplash.jpg",
-                "/lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
-                "/pexels-heyho-7534300.jpg"
+                "/prop6/lotus-design-n-print-8qNuR1lIv_k-unsplash.jpg",
+                "/prop6/spacejoy-vOa-PSimwg4-unsplash.jpg",
+                "/prop6/isaac-martin-wH2aFGo-Rt0-unsplash.jpg",
+                "/prop6/lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
+                "/prop6/pexels-heyho-7534300.jpg"
 
             ],
-            "floorPlan":"/floorplans/modern-3-bedroom-floor-plan.jpg",
+            "floorPlan":"/prop6/modern-3-bedroom-floor-plan.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.1778135286136!2d0.0676646!3d51.418160199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8abc2fe87e749%3A0xd8ab94c44ccf22f8!2sHigh%20St%2C%20Chislehurst%2C%20UK!5e0!3m2!1sen!2slk!4v1766924004040!5m2!1sen!2slk"
         },
         {
@@ -162,7 +162,7 @@
             "tenure": "Freehold",
             "description": "Charming two bedroom terraced cottage set in a quiet cul-de-sac location within walking distance of local shops and St Mary Cray station. Accommodation comprises a front reception room with feature fireplace, fitted kitchen/breakfast room and ground floor bathroom. To the first floor are two double bedrooms. Externally there is an attractive rear garden with patio and lawn, plus on-street parking to the front...",
             "location": "Mill Lane, St Mary Cray BR5",
-            "picture": "/pexels-scottwebb-1029599.jpg",
+            "picture": "/prop7/pexels-scottwebb-1029599.jpg",
             "url": "properties/prop7.html",
             "added": {
                 "month": "February",
@@ -170,14 +170,14 @@
                 "year": 2023
             },
             "images":[
-                "/photo-1498061390976-2b09e3889580.jpg",
-                "/timothy-buck-psrloDbaZc8-unsplash.jpg",
-                "/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg",
-                "/sosey-interiors-YABErdnJPGc-unsplash.jpg",
-                "/pexels-curtis-adams-1694007-18038065.jpg",
-                "/pexels-ybrphotography-8109514.jpg"
+                "/prop7/photo-1498061390976-2b09e3889580.jpg",
+                "/prop7/timothy-buck-psrloDbaZc8-unsplash.jpg",
+                "/prop7/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg",
+                "/prop7/sosey-interiors-YABErdnJPGc-unsplash.jpg",
+                "/prop7/pexels-curtis-adams-1694007-18038065.jpg",
+                "/prop7/pexels-ybrphotography-8109514.jpg"
             ],
-            "floorPlan":"/floorplans/5 Small And Simple 2-Bedroom House Designs With Floor Plans.jpg",
+            "floorPlan":"/prop7/5 Small And Simple 2-Bedroom House Designs With Floor Plans.jpg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.8374865941946!2d0.1162291!3d51.4060407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac6a7010a553%3A0x812cab7898775e86!2sNew%20Mill%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766924079462!5m2!1sen!2slk"
         }
 ]}
