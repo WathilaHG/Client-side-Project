@@ -66,7 +66,7 @@
 
 /* Google Maps iframe styling */
 .map-iframe{
-    width: 100%;
+    width: 70%;
     height:600px;
     border: 3px solid;
     border-radius: 8px;

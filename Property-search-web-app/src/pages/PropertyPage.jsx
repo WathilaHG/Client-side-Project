@@ -11,7 +11,6 @@ export function PropertyPage(){
     const property = properties.find((p) => p.id === id);
 
     // State for gallery and tabs
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [activeTab, setActiveTab] = useState("description");
 
     // Handle property not found
@@ -23,9 +22,6 @@ export function PropertyPage(){
             </div>
         );
     }
-
-    const imageUrls= property.images;
-    
 
     return(
         <div className="property-page">
@@ -45,15 +41,12 @@ export function PropertyPage(){
                 />
                 <div className="gallery-thumbs">
                     {/* Thumbnail gallery for additional images */}
-                    {imageUrls.map((src, index) => (
+                    {property.images.map((src, index) => (
                         <img
                             key={src}
                             src={src}
                             alt={"Thumbnail"+(index+1)}
-                            className={
-                                index === currentImageIndex? "thumb thumb-active": "thumb"
-                            }
-                            onClick={() => setCurrentImageIndex(index)}
+                            className="thumb"
                         />
                     ))}
                 </div>
@@ -106,6 +99,7 @@ export function PropertyPage(){
                 {activeTab === "map" && (
                     <iframe
                         src={property.map}
+                        title={`Map location for ${property.location}`}
                         className="map-iframe"
                     />
                 )}

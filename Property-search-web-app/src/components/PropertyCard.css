@@ -4,7 +4,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 8px;
-    transition: tranform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Scale up on hover with shadow */
