@@ -89,3 +89,59 @@
     border-radius: 8px;
     background-color: rgba(128, 128, 128, 0.145);
 }
+
+/* Tablet and below (iPad landscape: 1024px) */
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    
+    .gallery-thumbs {
+        width: 100%;
+    }
+    
+    .info-container {
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    .tabs {
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .property-page {
+        padding: 10px;
+    }
+    
+    .gallery {
+        padding: 10px;
+    }
+    
+    .gallery-thumbs {
+        grid-template-columns: 1fr;
+    }
+    
+    .map-iframe {
+        height: 300px;
+    }
+    
+    .tab {
+        width: 80px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .tab-active {
+        width: 80px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .tab-content {
+        font-size: 16px;
+    }
+}

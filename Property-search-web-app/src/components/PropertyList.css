@@ -5,3 +5,16 @@
     row-gap: 50px;
     
 }
+/* Tablet and below */
+@media (max-width: 1024px) {
+    .property-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .property-list {
+        grid-template-columns: 1fr;
+    }
+}

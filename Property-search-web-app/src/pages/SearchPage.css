@@ -7,3 +7,10 @@
     grid-template-columns: 3fr 1fr;
     gap: 16px;
 }
+
+/* Tablet and below (iPad landscape: 1024px) */
+@media (max-width: 1024px) {
+    .property-section {
+        grid-template-columns: 1fr;
+    }
+}

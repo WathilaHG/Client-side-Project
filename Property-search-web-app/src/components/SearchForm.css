@@ -8,3 +8,25 @@
 .search-button{
     grid-column: span 4;
 }
+
+/* Tablet and below (iPad landscape: 1024px) */
+@media (max-width: 1024px) {
+    .search-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .search-button {
+        grid-column: span 2;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .search-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .search-button {
+        grid-column: span 1;
+    }
+}
