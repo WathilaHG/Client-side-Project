@@ -1,3 +1,4 @@
+/* Card container with hover effects */
 .property-card{
     background-color: rgba(180, 184, 184, 0.636);
     border: 1px solid #ddd;
@@ -6,11 +7,13 @@
     transition: tranform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Scale up on hover with shadow */
 .property-card:hover{
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Action buttons layout */
 .property-card-actions{
     display: flex;
     gap: 50px;
@@ -18,6 +21,7 @@
     align-items: center;
 }
 
+/* View details link styling */
 .property-info-list{
     text-decoration: none;
     font-weight: bold;
@@ -26,6 +30,7 @@
     color:crimson;
 }
 
+/* Favourite button styling */
 .fav-button{
     height: 30px;
     width: 90px;
@@ -44,6 +49,7 @@
     background-color: rgba(0, 94, 255, 0.64);
 }
 
+/* Property image sizing */
 .Property-card-image {
     width: 100%;
     height: 200px;

@@ -1,8 +1,10 @@
+// Search form component for filtering properties by various criteria
 import {useState} from 'react';
 import {TextField, MenuItem, Button, Box} from "@mui/material";
 import "./SearchForm.css"
 
 export function SearchForm({onSearch}){
+    // State for all search criteria
     const [type, setType] = useState("any");
     const [minPrice, setMinPrice] = useState("");
     const [maxPrice, setMaxPrice] = useState("");
@@ -12,6 +14,7 @@ export function SearchForm({onSearch}){
     const [toDate, setToDate] = useState("");
     const [postCode, setPostCode] = useState("");
 
+    // Handle form submission and pass criteria to parent
     const handleSubmit = (e) =>{
         e.preventDefault();
         onSearch({
@@ -29,13 +32,14 @@ export function SearchForm({onSearch}){
 
     return(
         <Box component="form" onSubmit={handleSubmit} className='search-form'>
-
+            {/* Property type selector */}
             <TextField select label="Type" value={type} size="small" onChange={(e) => setType(e.target.value)} >
                 <MenuItem value="any">Any</MenuItem>
                 <MenuItem value="House">House</MenuItem>
                 <MenuItem value="Flat">Flat</MenuItem>
             </TextField>
 
+            {/* Price range inputs */}
             <TextField 
                 label="Min price"
                 type="number"
@@ -52,6 +56,7 @@ export function SearchForm({onSearch}){
                 size="small"
             />
 
+            {/* Bedroom range inputs */}
             <TextField
                 label="Min bedrooms"
                 type="number"
@@ -68,6 +73,7 @@ export function SearchForm({onSearch}){
                 size="small"
             />
 
+            {/* Date range inputs */}
             <TextField
                 label="From date"
                 type="date"
@@ -86,6 +92,7 @@ export function SearchForm({onSearch}){
                 size="small"
             />
 
+            {/* Postcode area filter */}
             <TextField
                 label="Postcode area (e.g. BR5)"
                 value={postCode}
@@ -93,6 +100,7 @@ export function SearchForm({onSearch}){
                 size="small"
             />
 
+            {/* Submit button */}
             <Button type="submit" variant="contained" className='search-button' size="small">
                 Search
             </Button>

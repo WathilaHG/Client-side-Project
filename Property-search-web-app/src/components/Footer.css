@@ -1,3 +1,4 @@
+/* Footer with gradient background matching header */
 .site-footer{
     padding:8px 16px;
     background:linear-gradient(135deg, #1061ee, #a1b9e6);

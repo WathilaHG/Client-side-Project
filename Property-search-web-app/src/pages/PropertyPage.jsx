@@ -1,16 +1,20 @@
+// Detailed property page with image gallery, tabs, and property information
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import data from "../data/properties.json";
 import "./PropertyPage.css";
 
 export function PropertyPage(){
+    // Get property ID from URL parameters
     const {id} = useParams();
     const properties = data.properties;
     const property = properties.find((p) => p.id === id);
 
+    // State for gallery and tabs
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [activeTab, setActiveTab] = useState("description");
 
+    // Handle property not found
     if(!property) {
         return(
             <div className="property-page">
@@ -25,13 +29,14 @@ export function PropertyPage(){
 
     return(
         <div className="property-page">
+            {/* Property header with price and details */}
             <h1>
                 £{property.price.toLocaleString()} - {property.bedrooms} bed{" "}
                 {property.type}
             </h1>
             <p>{property.location}</p>
 
-            
+            {/* Image gallery with main image and thumbnails */}
             <div className="gallery">
                 <img
                     src={property.picture}
@@ -39,6 +44,7 @@ export function PropertyPage(){
                     className="gallery-main"
                 />
                 <div className="gallery-thumbs">
+                    {/* Thumbnail gallery for additional images */}
                     {imageUrls.map((src, index) => (
                         <img
                             key={src}
@@ -53,6 +59,7 @@ export function PropertyPage(){
                 </div>
             </div>
 
+            {/* Tab navigation */}
             <div className="tabs">
                 <button
                     type="button"
@@ -79,11 +86,14 @@ export function PropertyPage(){
                 </button>
             </div>
 
+            {/* Tab content */}
             <div className="tab-content">
+                {/* Description tab */}
                 {activeTab === "description" && (
                     <p className="info-container">{property.description}</p>
                 )}
 
+                {/* Floor plan tab */}
                 {activeTab === "floor" && (
                     <img
                         src={property.floorPlan}
@@ -92,6 +102,7 @@ export function PropertyPage(){
                     />
                 )}
 
+                {/* Map tab */}
                 {activeTab === "map" && (
                     <iframe
                         src={property.map}

@@ -1,3 +1,4 @@
+/* 4-column grid for property cards */
 .property-list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

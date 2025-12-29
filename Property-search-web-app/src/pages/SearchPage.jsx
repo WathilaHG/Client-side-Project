@@ -1,3 +1,4 @@
+// Main search page with property filtering and favourites management
 import {useState} from 'react';
 import data from '../data/properties.json';
 import { SearchForm } from '../components/SearchForm.jsx';
@@ -10,6 +11,7 @@ export function SearchPage(){
     const [filtered, setFiltered] = useState([]);
     const [favourites, setFavourites] = useState([])
 
+    // Filter properties based on search criteria
     const manageSearch = (criteria) => {
         const results = properties.filter((p) => {
             //type
@@ -29,6 +31,7 @@ export function SearchPage(){
                 if(!code.startsWith(criteria.postCode)){return false;}
             }
 
+            //Date added
             const added = new Date(`${p.added.day} ${p.added.month} ${p.added.year}`);
 
             if(criteria.fromDate){
@@ -46,35 +49,44 @@ export function SearchPage(){
         setFiltered(results);
     };
 
+    // Display filtered results or all properties
     const propertiesToDisplay = filtered.length? filtered : properties;
 
+    // Add property to favourites (prevent duplicates)
     const addFavourite = (id) => {
         setFavourites((prev) => {
             return prev.includes(id) ? prev :[...prev, id]
         });
     };
 
+    // Remove property from favourites
     const removeFavourite = (id) => {
         setFavourites((prev) => prev.filter((fid) => fid !== id));
     };
 
+    // Clear all favourites
     const clearFavourites = () => {
         setFavourites([]);
     }
 
+    // Get full property objects for favourites
     const favouriteProperties = properties.filter((p) => favourites.includes(p.id));
 
 
     return(
         <div className='search-layout'>
             <h1>Property search</h1>
+
+            {/* Search form */}
             <SearchForm onSearch={manageSearch}/>
             <div className='property-section'>
+                {/* Property listing grid */}
                 <PropertyList 
                     properties={propertiesToDisplay} 
                     onFavourite={addFavourite}
                 />
 
+                {/* Favourites sidebar */}
                 <FavouritesPanel
                     favourites={favouriteProperties}
                     onRemove={removeFavourite}

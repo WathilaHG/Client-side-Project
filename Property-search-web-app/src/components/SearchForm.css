@@ -1,3 +1,4 @@
+/* 4-column grid layout for search inputs */
 .search-form{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -5,11 +6,12 @@
     margin-bottom: 30px;
 }
 
+/* Search button spans full width */
 .search-button{
     grid-column: span 4;
 }
 
-/* Tablet and below (iPad landscape: 1024px) */
+/* Tablet */
 @media (max-width: 1024px) {
     .search-form {
         grid-template-columns: repeat(2, 1fr);
